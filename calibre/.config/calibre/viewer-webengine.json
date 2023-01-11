@@ -1,0 +1,341 @@
+{
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 1080,
+      "width": 1920,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": true,
+    "geometry": {
+      "height": 1080,
+      "width": 1920,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 1080,
+      "width": 1920,
+      "x": 0,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAB38AAAQ3AAAAAAAAAAAAAAd/AAAENwAAAAAABAAAB4AAAAAAAAAAAAAAB38AAAQ3"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "",
+      "name": "eDP-1-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAPAAAAAAAAAB38AAAQ3AAADwAAAAAAAAAd/AAAENwAAAAAAAAAAB4AAAAPAAAAAAAAAB38AAAQ3"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAJ6AAAEOPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAAAAAEOAAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAQAAAAAAAAQ4AAAAmgD///8AAAABAAABAAAABDj8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACEAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAAAAAEOAAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANIA////AAAFAAAABDgAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "saved-search-settings": {
+    "bed": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "bedded": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "cum": {
+      "case_sensitive": false,
+      "mode": "word"
+    },
+    "exposed": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "jealous": {
+      "case_sensitive": false,
+      "mode": "word"
+    },
+    "kiss": {
+      "case_sensitive": false,
+      "mode": "word"
+    },
+    "kiss\\": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "lotus": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "moan": {
+      "case_sensitive": false,
+      "mode": "word"
+    },
+    "naked": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "night together": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "nude": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "orgasm": {
+      "case_sensitive": false,
+      "mode": "word"
+    },
+    "pee": {
+      "case_sensitive": false,
+      "mode": "word"
+    },
+    "rong": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "rumors": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "rumours": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "shuddered": {
+      "case_sensitive": false,
+      "mode": "word"
+    },
+    "sister": {
+      "case_sensitive": false,
+      "mode": "word"
+    },
+    "white liquid": {
+      "case_sensitive": false,
+      "mode": "word"
+    },
+    "xu yourong": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "yao": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "you rong": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "yue yao": {
+      "case_sensitive": false,
+      "mode": "word"
+    },
+    "zhang le": {
+      "case_sensitive": false,
+      "mode": "word"
+    }
+  },
+  "session_data": {
+    "base_font_size": 28,
+    "controls_footer": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "controls_help_shown_count": 2,
+    "footer": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "header": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "highlight_style": {
+      "kind": "color",
+      "type": "builtin",
+      "which": "yellow"
+    },
+    "left-margin": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "max_text_width": 1000,
+    "right-margin": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "standalone_font_settings": {
+      "mono_family": "Hack",
+      "sans_family": "Iosevka",
+      "serif_family": "Open Sans"
+    },
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Ongoing"
+        ],
+        "key": "/run/media/user/st5_tome/apps/Lightnovels/epub/Soaring The Heavens c1-2253.epub",
+        "pathtoebook": "/run/media/user/st5_tome/apps/Lightnovels/epub/Soaring The Heavens c1-2253.epub",
+        "timestamp": "2022-12-31T15:30:39.751Z",
+        "title": "Soaring The Heavens c1-2253"
+      },
+      {
+        "authors": [
+          "Blood Red, Xue Hong, 血红"
+        ],
+        "key": "/run/media/user/st5_tome/apps/Lightnovels/epub/Stealing The Heavens c1-986.epub",
+        "pathtoebook": "/run/media/user/st5_tome/apps/Lightnovels/epub/Stealing The Heavens c1-986.epub",
+        "timestamp": "2022-12-17T20:28:22.079Z",
+        "title": "Stealing The Heavens c1-986"
+      },
+      {
+        "authors": [
+          "Ghost Beneath The Curtain Of N"
+        ],
+        "key": "/run/media/user/st5_tome/apps/Lightnovels/epub/These Dangerous Girls Placed Me Into Jeopardy c1-793.epub",
+        "pathtoebook": "/run/media/user/st5_tome/apps/Lightnovels/epub/These Dangerous Girls Placed Me Into Jeopardy c1-793.epub",
+        "timestamp": "2022-11-19T15:59:45.542Z",
+        "title": "These Dangerous Girls Placed Me Into Jeopardy c1-793"
+      },
+      {
+        "authors": [
+          "Ongoing"
+        ],
+        "key": "/run/media/user/st5_tome/apps/Lightnovels/epub/I Became The Rich Second Generation Villain c1-694.epub",
+        "pathtoebook": "/run/media/user/st5_tome/apps/Lightnovels/epub/I Became The Rich Second Generation Villain c1-694.epub",
+        "timestamp": "2022-11-05T16:25:57.027Z",
+        "title": "I Became The Rich Second-Generation Villain c1-694"
+      },
+      {
+        "key": "/run/media/user/priv/h/best of fakku/Homunculus_Boy_Meets_Girl_Comic_Kairakuten_2018-09_.cbz",
+        "pathtoebook": "/run/media/user/priv/h/best of fakku/Homunculus_Boy_Meets_Girl_Comic_Kairakuten_2018-09_.cbz",
+        "timestamp": "2022-10-26T21:19:07.603Z",
+        "title": "Homunculus Boy Meets Girl Comic Kairakuten 2018-09 "
+      },
+      {
+        "authors": [
+          "Ongoing"
+        ],
+        "key": "/run/media/user/st5_tome/apps/Lightnovels/epub/Flower Master In The City c1-1474.epub",
+        "pathtoebook": "/run/media/user/st5_tome/apps/Lightnovels/epub/Flower Master In The City c1-1474.epub",
+        "timestamp": "2022-10-22T19:24:32.462Z",
+        "title": "Flower Master In The City c1-1474"
+      },
+      {
+        "authors": [
+          "天堂不寂寞"
+        ],
+        "key": "/run/media/user/st5_tome/apps/Lightnovels/epub/Womanizing Mage c1-683.epub",
+        "pathtoebook": "/run/media/user/st5_tome/apps/Lightnovels/epub/Womanizing Mage c1-683.epub",
+        "timestamp": "2022-10-20T22:41:38.584Z",
+        "title": "Womanizing Mage c1-683"
+      },
+      {
+        "authors": [
+          "Chun Hei Se Ji Dian, 纯黑色祭奠"
+        ],
+        "key": "/run/media/user/st5_tome/apps/Lightnovels/epub/Medical Sovereign c1-544.epub",
+        "pathtoebook": "/run/media/user/st5_tome/apps/Lightnovels/epub/Medical Sovereign c1-544.epub",
+        "timestamp": "2022-10-20T22:39:59.381Z",
+        "title": "Medical Sovereign c1-544"
+      },
+      {
+        "authors": [
+          "Qin Ding"
+        ],
+        "key": "/run/media/user/st5_tome/apps/Lightnovels/epub/Ascending The Heavens As An Evil God c1-611.epub",
+        "pathtoebook": "/run/media/user/st5_tome/apps/Lightnovels/epub/Ascending The Heavens As An Evil God c1-611.epub",
+        "timestamp": "2022-10-20T22:39:37.315Z",
+        "title": "Ascending The Heavens As An Evil God c1-611"
+      },
+      {
+        "authors": [
+          "Get Lost, 滚开"
+        ],
+        "key": "/run/media/user/st5_tome/apps/Lightnovels/epub/Mystical Journey c1-1375.epub",
+        "pathtoebook": "/run/media/user/st5_tome/apps/Lightnovels/epub/Mystical Journey c1-1375.epub",
+        "timestamp": "2022-10-20T22:32:59.949Z",
+        "title": "Mystical Journey c1-1375"
+      },
+      {
+        "authors": [
+          "Mao Ni, 猫腻"
+        ],
+        "key": "/run/media/user/st5_tome/apps/Lightnovels/epub/Ze Tian Ji c1-1185.epub",
+        "pathtoebook": "/run/media/user/st5_tome/apps/Lightnovels/epub/Ze Tian Ji c1-1185.epub",
+        "timestamp": "2022-10-20T22:30:29.994Z",
+        "title": "Ze Tian Ji c1-1185"
+      },
+      {
+        "authors": [
+          "White Jade Of Sunset Mountain"
+        ],
+        "key": "/run/media/user/st5_tome/apps/Lightnovels/epub/Trafford S Trading Club c1-2764.epub",
+        "pathtoebook": "/run/media/user/st5_tome/apps/Lightnovels/epub/Trafford S Trading Club c1-2764.epub",
+        "timestamp": "2022-10-20T22:30:18.421Z",
+        "title": "Trafford'S Trading Club c1-2764"
+      },
+      {
+        "authors": [
+          "冰临神下, Cold Glamor"
+        ],
+        "key": "/home/user/Lightnovels/epub/Death Scripture c1-970.epub",
+        "pathtoebook": "/home/user/Lightnovels/epub/Death Scripture c1-970.epub",
+        "timestamp": "2022-10-20T21:31:32.488Z",
+        "title": "Death Scripture c1-970"
+      },
+      {
+        "authors": [
+          "Mao Ni, 猫腻"
+        ],
+        "key": "/home/user/Lightnovels/epub/Ze Tian Ji c1-1185.epub",
+        "pathtoebook": "/home/user/Lightnovels/epub/Ze Tian Ji c1-1185.epub",
+        "timestamp": "2022-10-20T18:14:18.693Z",
+        "title": "Ze Tian Ji c1-1185"
+      }
+    ]
+  },
+  "viewer-search-case-sensitive": false,
+  "viewer-search-mode": "word",
+  "viewer_image_popup_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAAAAAAAAAAAB38AAAQ3AAACNgAAABQAAAU1AAAEGQAAAAAABAAAB4AAAAAAAAAAAAAAB38AAAQ3"
+  }
+}

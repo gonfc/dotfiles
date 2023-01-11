@@ -1,0 +1,23 @@
+#Wesley Schwengle / dotty · GitLab. (2023, January 10). Retrieved from https://gitlab.com/waterkip/dotty/-/blob/master/stow/.stow-global-ignore
+
+\.gitattributes
+\.gitconfig
+\.mailmap
+\.git
+\.dockerignore
+Dockerfile.*
+docker-compose.*
+t
+hooks
+.*\.zwc
+\.zcompdump
+steam\.pid
+
+\.editorconfig
+\.gitlab-ci\.yml
+\.travis
+
+LICENSE.*
+README.*
+
+

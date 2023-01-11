@@ -1,0 +1,36 @@
+# docs: https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
+[user]
+	email = gfcorreia@protonmail.com
+	name = Gonçalo Correia
+
+[safe]
+	; directory = /run/media/user/st5_tome/repositories/vaults/Es Regnet
+	; directory = /run/media/user/st5_tome/repositories/vaults/Es Regnet
+	; directory = /run/media/user/st5_tome/repositories/Es-Regnet
+	; directory = /run/media/user/st5_tome/repositories/Charakter-Tun
+	; directory = /run/media/user/st5_tome/repositories/.dotfiles
+	; directory = /run/media/user/st5_tome/repositories/gonfc.github.io
+	; directory = /run/media/user/st5_tome/repositories/dendron_private
+	; directory = /run/media/user/st5_tome/repositories/public/repositories-public/public-notes
+	; directory = /run/media/user/st5_tome/repositories/forks/css-exercises-top
+	; directory = /run/media/user/st5_tome/repositories/public-notes
+	; directory = /run/media/user/st5_tome/repositories/public-notes/dependencies/localhost/private-notes
+	directory = /run/media/user/st5_tome/repositories/python-mini-public-projects
+	directory = /run/media/user/st5_tome/repositories/python-mini-public-projects/netacad_python_essentials_2
+
+[work]
+	email = gcorreia@s21sec.com
+	name = gonfc
+
+[alias]
+	# user as git <alias>
+	whoami= !git config --global user.name && git config --global user.email
+	setwork= !git config --global user.name \""$(git config work.name)"\" && git config --global user.email "$(git config work.email)" && git whoami
+	setpersonal= !git config --global user.name \""$(git config personal.name)"\" && git config --global user.email "$(git config personal.email)" && git whoami
+	last = log -1 HEAD
+
+   # last = git config --global alias.last 'log -1 HEAD' 'log -1 HEAD'
+[color]
+	ui = auto
+[core]
+	autocrlf = false

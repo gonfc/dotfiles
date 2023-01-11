@@ -1,0 +1,9 @@
+[Desktop Entry]
+Categories=Office
+Exec=/usr/bin/zotero -url %U
+GenericName=Zotero Standalone. Is a free, easy-to-use tool to help you collect, organize, cite, and share your research sources.
+Icon=zotero
+MimeType=x-scheme-handler/zotero
+Name=Zotero
+Terminal=false
+Type=Application
