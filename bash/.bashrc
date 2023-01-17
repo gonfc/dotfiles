@@ -13,7 +13,7 @@ alias pbpaste='xclip -selection clipboard -o'
 
 # Max of history items. Use `history | /zf`
 HISTCONTROL=ignoredups:erasedups  # no duplicate entries
-HISTSIZE=10000                   # big big history
+HISTSIZE=1000000                   # big big history
 HISTFILESIZE=100000               # big big history
 shopt -s histappend                      # append to history, don't overwrite it
 

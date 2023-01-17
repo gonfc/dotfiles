@@ -1,9 +1,0 @@
-[Desktop Entry]
-Categories=Productivity;
-Comment=Personal Task Management App to help you with your daily struggle with JIRA etc.
-Exec=/opt/superProductivity/superproductivity %U
-Icon=superproductivity
-Name=superProductivity
-StartupWMClass=superProductivity
-Terminal=false
-Type=Application
