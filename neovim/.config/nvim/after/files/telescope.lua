@@ -6,12 +6,13 @@ vim.keymap.set('n', '<leader>sh', builtin.help_tags, {})
 vim.keymap.set('n', '<leader>sG', builtin.git_files, {})
 --
 local telescope = require("telescope")
+require('telescope').load_extension('media_files')
 
 telescope.setup({
     defaults = {
         vimgrep_arguments = {
             "rg",
-            "--color=never",
+            -- "--color=never",
             "--no-heading",
             "--with-filename",
             "--line-number",
@@ -50,10 +51,14 @@ telescope.setup({
                 i = {
                     ["<c-d>"] = "delete_buffer", -- this overrides the built in preview scroller
                     ["<c-b>"] = "preview_scrolling_down",
+                    ["<c-j>"] = "cycle_history_next",
+                    ["<c-k>"] = "cycle_history_previous",
                 },
                 n = {
                     ["<c-d>"] = "delete_buffer", -- this overrides the built in preview scroller
                     ["<c-b>"] = "preview_scrolling_down",
+                    ["<c-j>"] = "cycle_history_next",
+                    ["<c-k>"] = "cycle_history_previous",
                 },
             },
         },

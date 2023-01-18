@@ -66,4 +66,14 @@ return require('packer').startup(function(use)
 	use {"akinsho/toggleterm.nvim", tag = '*', config = function() require("toggleterm").setup() end}
 	use { 'nvim-telescope/telescope-dap.nvim' }
 	use {'vim-airline/vim-airline'}
+	use {'img-paste-devs/img-paste.vim'}
+	use {'ekickx/clipboard-image.nvim'}
+	use {'nvim-telescope/telescope-media-files.nvim'}
+	use {'nvim-lua/popup.nvim'}
+	use({'jakewvincent/mkdnflow.nvim',
+    rocks = 'luautf8', -- Ensures optional luautf8 dependency is installed
+    config = function()
+        require('mkdnflow').setup({})
+    end
+})
 end)
