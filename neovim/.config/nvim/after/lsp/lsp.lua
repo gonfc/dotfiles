@@ -1,4 +1,5 @@
 local lsp = require("lsp-zero")
+-- TODO: lsp work on commented code
 
 lsp.preset("recommended")
 

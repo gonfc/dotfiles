@@ -10,7 +10,12 @@ vim.keymap.set('n', '<leader>sh', builtin.help_tags, {})
 vim.keymap.set('n', '<leader>sG', builtin.git_files, { noremap = true })
 -- vim.keymap.set('n', '<leader>e', ":Telescope file_browser<CR>")
 vim.keymap.set('n', '<leader>e', ":Ex<CR>")
---
+
+
+-- TODO: Update telescope to always use color for git
+vim.keymap.set('n', '<leader>gs', builtin.git_status, { noremap = true })
+vim.keymap.set('n', '<leader>sG', builtin.git_files, { noremap = true })
+
 local telescope = require("telescope")
 require('telescope').load_extension('media_files')
 require("telescope").load_extension "file_browser"

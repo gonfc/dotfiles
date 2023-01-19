@@ -1,6 +1,16 @@
+
 ## TODO List
 
-### Plugins
+Ordered by priority (desc, highest to lowest).
 
+- harpoon
 - whichkey
-https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/
+- [ ] markdown
+	- [ ] footnotes
+      - [ ] citations
+
+## Archived
+
+- [x] https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/
+- [ ] 
+

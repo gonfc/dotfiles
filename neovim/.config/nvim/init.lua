@@ -9,7 +9,8 @@ vim.opt.rtp:append(vim.fn.stdpath "config" .. "/after/lsp")
 --vim.builtin.treesitter.highlight.enable = true
 
 require('main')
-require('config')
+-- Past error due to permissions. Fix is: `chmod 755 config.lua`
+require('base.config')
 
  local function source_files_from_dir(directory)
    for _, file in pairs(vim.fn.readdir(directory)) do
@@ -19,7 +20,7 @@ require('config')
      end
    end
  end
- 
+
  -- load all additional configs
  local lua_config_dir = vim.fn.stdpath('config') .. '/after'
  local config_dirs = { 'appearance', 'files', 'keybinds', 'lsp' }
