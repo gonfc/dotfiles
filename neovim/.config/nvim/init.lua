@@ -10,7 +10,7 @@ vim.opt.rtp:append(vim.fn.stdpath "config" .. "/after/lsp")
 
 require('main')
 -- Past error due to permissions. Fix is: `chmod 755 config.lua`
-require('base.config')
+-- require('config')
 
  local function source_files_from_dir(directory)
    for _, file in pairs(vim.fn.readdir(directory)) do
