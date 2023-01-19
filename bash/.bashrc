@@ -2,6 +2,11 @@
 # IF THIS LINE IS NOT FIRST ON .bashrc, IT ~~FUCKING~~ FREEZES SDDM
 [[ $- != *i* ]] && return
 
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+  exec tmux
+fi
+
+
 # That means that on first <Tab> it will complete to the longest common string and will invoke wildmenu (a horizontal and unobtrusive little menu). On next <Tab> it will complete the first alternative and it will start to cycle through the rest. You can go back and forth with <Tab> and <S-Tab> respectively.
 # set wildmenu
 set wildmode=longest:full,full
