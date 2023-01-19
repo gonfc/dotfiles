@@ -29,8 +29,7 @@ return require('packer').startup(function(use)
 	    config = function()
 		vim.cmd('colorscheme rose-pine')
 	    end
-	})    
-
+	})
 	use {'nvim-treesitter/nvim-treesitter',	run = ':TSUpdate'}
 	use ('nvim-treesitter/playground')
 	use ('theprimeagen/harpoon')
@@ -76,4 +75,7 @@ return require('packer').startup(function(use)
         require('mkdnflow').setup({})
     end
 })
+	use({ 'mrjones2014/tldr.nvim', requires = { 'nvim-telescope/telescope.nvim' } })
+	use { "nvim-telescope/telescope-file-browser.nvim" }
+	use {'nvim-telescope/telescope-ui-select.nvim' }
 end)
