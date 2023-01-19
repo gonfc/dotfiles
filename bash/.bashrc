@@ -1,5 +1,6 @@
 # If not running interactively, don't do anything
 # IF THIS LINE IS NOT FIRST ON .bashrc, IT ~~FUCKING~~ FREEZES SDDM
+export PATH=$PATH:/opt/nvim-linux64/bin
 [[ $- != *i* ]] && return
 
 # That means that on first <Tab> it will complete to the longest common string and will invoke wildmenu (a horizontal and unobtrusive little menu). On next <Tab> it will complete the first alternative and it will start to cycle through the rest. You can go back and forth with <Tab> and <S-Tab> respectively.
@@ -9,7 +10,6 @@ set wildmode=longest:full,full
 # cat /etc/fstab | pbcopy
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
-
 
 # Max of history items. Use `history | /zf`
 HISTCONTROL=ignoredups:erasedups  # no duplicate entries
@@ -31,12 +31,12 @@ alias gl='git last'
 alias ts='sudo tlp-stat -s'
 alias tb='sudo tlp bat'
 alias ta='sudo tlp ac'
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias speedtest='speedtest --secure'
 alias ..='cd ..'
 alias ls='ls -lhua --color=auto'
 LS_COLORS='*.html=95:*.php=1;32:di=1;94:no=00:fi=00:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=1;4;104;37:st=37;44:ex=0;4:*.tar=01;31:*.tgz=01;31:*.zip=01;31:*.gz=01;31:*.bz2=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.png=01;35:';
 export LS_COLORS
+alias v='sudo nvim'
 alias nv='nvim'
 alias lv='sudo lvim'
 alias j='journalctl -xe'
