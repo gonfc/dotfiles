@@ -111,35 +111,35 @@
   ],
   "geometry-of-calibre_main_window_geometry": {
     "frame_geometry": {
-      "height": 365,
+      "height": 378,
       "width": 960,
-      "x": 960,
-      "y": 720
+      "x": 288,
+      "y": 249
     },
     "full_screened": false,
     "geometry": {
-      "height": 365,
+      "height": 378,
       "width": 960,
-      "x": 960,
-      "y": 720
+      "x": 288,
+      "y": 249
     },
     "maximized": false,
     "normal_geometry": {
-      "height": 365,
+      "height": 378,
       "width": 960,
-      "x": 960,
-      "y": 720
+      "x": 288,
+      "y": 249
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAPAAAAC0AAAB38AAAQ8AAADwAAAAtAAAAd/AAAEPAAAAAAAAAAAB4AAAAPAAAAC0AAAB38AAAQ8"
+      "__value__": "AdnQywADAAAAAAEgAAAA+QAABN8AAAJyAAABIAAAAPkAAATfAAACcgAAAAAAAAAABgAAAAEgAAAA+QAABN8AAAJy"
     },
     "screen": {
       "depth": 24,
-      "device_pixel_ratio": 1.0,
+      "device_pixel_ratio": 1.25,
       "geometry_in_logical_pixels": {
-        "height": 1080,
-        "width": 1920,
+        "height": 864,
+        "width": 1536,
         "x": 0,
         "y": 0
       },
@@ -149,12 +149,12 @@
       "name": "eDP-1-1",
       "serial": "",
       "size_in_logical_pixels": {
-        "height": 1080,
-        "width": 1920
+        "height": 864,
+        "width": 1536
       },
       "virtual_geometry": {
-        "height": 1080,
-        "width": 1920,
+        "height": 864,
+        "width": 1536,
         "x": 0,
         "y": 0
       }
@@ -162,7 +162,7 @@
   },
   "grid view visible": false,
   "library_usage_stats": {
-    "/home/user/Calibre Library": 12
+    "/home/user/Calibre Library": 14
   },
   "quick_start_guide_added": true,
   "quickview visible": false,

@@ -40,13 +40,13 @@ lsp.setup_nvim_cmp({
 })
 
 lsp.set_preferences({
-    suggest_lsp_servers = false,
-    -- sign_icons = {
-    --     error = 'E',
-    --     warn = 'W',
-    --     hint = 'H',
-    --     info = 'I'
-    -- }
+    suggest_lsp_servers = true,
+    sign_icons = {
+        error = 'E',
+        warn = 'W',
+        hint = 'H',
+        info = 'I'
+    }
 })
 
 lsp.on_attach(function(client, bufnr)
@@ -58,7 +58,7 @@ lsp.on_attach(function(client, bufnr)
   end
 
   vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts)
-  vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
+  vim.keymap.set("n", "K", vim.lsp.buf.hover, opts, { noremap = true } )
   vim.keymap.set("n", "<leader>vws", vim.lsp.buf.workspace_symbol, opts)
   vim.keymap.set("n", "<leader>vd", vim.diagnostic.open_float, opts)
   vim.keymap.set("n", "[d", vim.diagnostic.goto_next, opts)

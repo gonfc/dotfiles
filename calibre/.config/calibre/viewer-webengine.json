@@ -1,35 +1,35 @@
 {
   "geometry-of-main_window_geometry": {
     "frame_geometry": {
-      "height": 1080,
-      "width": 1920,
+      "height": 863,
+      "width": 1535,
       "x": 0,
       "y": 0
     },
-    "full_screened": true,
+    "full_screened": false,
     "geometry": {
-      "height": 1080,
-      "width": 1920,
+      "height": 863,
+      "width": 1535,
       "x": 0,
       "y": 0
     },
     "maximized": false,
     "normal_geometry": {
-      "height": 1080,
-      "width": 1920,
+      "height": 863,
+      "width": 1535,
       "x": 0,
       "y": 0
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAAAAAAAAAAAB38AAAQ3AAAAAAAAAAAAAAd/AAAENwAAAAAABAAAB4AAAAAAAAAAAAAAB38AAAQ3"
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAABf4AAANeAAAAAAAAAAAAAAX+AAADXgAAAAAAAAAABgAAAAAAAAAAAAAABf4AAANe"
     },
     "screen": {
       "depth": 24,
-      "device_pixel_ratio": 1.0,
+      "device_pixel_ratio": 1.25,
       "geometry_in_logical_pixels": {
-        "height": 1080,
-        "width": 1920,
+        "height": 864,
+        "width": 1536,
         "x": 0,
         "y": 0
       },
@@ -39,12 +39,12 @@
       "name": "eDP-1-1",
       "serial": "",
       "size_in_logical_pixels": {
-        "height": 1080,
-        "width": 1920
+        "height": 864,
+        "width": 1536
       },
       "virtual_geometry": {
-        "height": 1080,
-        "width": 1920,
+        "height": 864,
+        "width": 1536,
         "x": 0,
         "y": 0
       }
@@ -56,7 +56,7 @@
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAJ6AAAEOPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAAAAAEOAAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAQAAAAAAAAQ4AAAAmgD///8AAAABAAABAAAABDj8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACEAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAAAAAEOAAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANIA////AAAFAAAABDgAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAJ6AAADX/wCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAAAAAEOAAAAI8A////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAQAAAAAAAANfAAAAogD///8AAAABAAABAAAABDj8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACPAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAAAAAEOAAAAQMA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFgD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAOAA////AAADfwAAA18AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
   "saved-search-settings": {
@@ -98,7 +98,7 @@
     },
     "naked": {
       "case_sensitive": false,
-      "mode": "normal"
+      "mode": "word"
     },
     "night together": {
       "case_sensitive": false,
@@ -128,6 +128,10 @@
       "case_sensitive": false,
       "mode": "normal"
     },
+    "sex": {
+      "case_sensitive": false,
+      "mode": "word"
+    },
     "shuddered": {
       "case_sensitive": false,
       "mode": "word"
@@ -135,6 +139,10 @@
     "sister": {
       "case_sensitive": false,
       "mode": "word"
+    },
+    "thrust": {
+      "case_sensitive": false,
+      "mode": "normal"
     },
     "white liquid": {
       "case_sensitive": false,
@@ -207,6 +215,15 @@
       "singleinstance": false
     },
     "standalone_recently_opened": [
+      {
+        "authors": [
+          "火星引力, Mars Gravity"
+        ],
+        "key": "/run/media/user/st5_tome/apps/Lightnovels/epub/epub/ShuraS Wrath c1-853.epub",
+        "pathtoebook": "/run/media/user/st5_tome/apps/Lightnovels/epub/epub/ShuraS Wrath c1-853.epub",
+        "timestamp": "2023-01-15T19:53:23.161Z",
+        "title": "Shura’S Wrath c1-853"
+      },
       {
         "authors": [
           "Ongoing"

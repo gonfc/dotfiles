@@ -9,6 +9,7 @@ vim.opt.rtp:append(vim.fn.stdpath "config" .. "/after/lsp")
 --vim.builtin.treesitter.highlight.enable = true
 
 require('main')
+--require('config')
 
  local function source_files_from_dir(directory)
    for _, file in pairs(vim.fn.readdir(directory)) do
