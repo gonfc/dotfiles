@@ -1,18 +1,20 @@
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>sf', builtin.find_files, {})
-vim.keymap.set('n', 'F1', builtin.find_files, {})
+vim.keymap.set('n', '<F3>', builtin.find_files, { noremap = true })
 vim.keymap.set("n", "<leader>sg", ":lua require('telescope').extensions.live_grep_args.live_grep_args()<CR>")
 -- vim.keymap.set("n", "<leader>sg", "builtin.resume()")
 -- vim.keymap.set('n', '<leader>ss', ":Telescope resume<CR>")
 vim.keymap.set('n', '<leader>ss', builtin.resume, {})
 vim.keymap.set('n', '<leader>sb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>sh', builtin.help_tags, {})
-vim.keymap.set('n', '<leader>sG', builtin.git_files, {})
-vim.keymap.set('n', '<leader>e', ":Telescope file_browser<CR>")
+vim.keymap.set('n', '<leader>sG', builtin.git_files, { noremap = true })
+-- vim.keymap.set('n', '<leader>e', ":Telescope file_browser<CR>")
+vim.keymap.set('n', '<leader>e', ":Ex<CR>")
 --
 local telescope = require("telescope")
 require('telescope').load_extension('media_files')
 require("telescope").load_extension "file_browser"
+require("telescope").load_extension("session-lens")
 -- --  telescope.load_extension("fzf")
 -- --  telescope.load_extension("dap")
 telescope.load_extension("ui-select")
@@ -77,7 +79,18 @@ telescope.setup({
 			},
 		},
 		find_files   = {
-			hidden = true
+			hidden = true,
+			 find_command = {
+				'rg',
+				'--files',
+				'--iglob', '!.git',
+				'--iglob', '!node_modules',
+				'--iglob', '!public',
+				'--iglob', '!tmp',
+				'--hidden',
+				'-u'
+			      },
+			      path_display = { "truncate" }, 
 		},
 		file_browser = {
 			hidden = true
@@ -129,5 +142,6 @@ telescope.setup({
 
 })
 
--- --
+-- References
+-- rayfaddis. (2023, January 19). dotfiles. Retrieved from https://github.com/rayfaddis/dotfiles/blob/81b196b1ae715d20c9c662f42eac5e95950218f6/config/nvim/lua/plugins/telescope.lua
 -- --

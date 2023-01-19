@@ -3,6 +3,7 @@ vim.keymap.set('n', '<leader>e', vim.cmd.Ex)
 vim.keymap.set('n', '<leader>Ps', ':PackerSync<CR>')
 vim.keymap.set('n', '<C-s>', ':write<CR>')
 vim.keymap.set('n', '<A-s>', ':source<CR>')
+vim.keymap.set('n', '<leader>S', ':SearchSession<CR>')
 
 --- ThePrimeagen. (2023, January 11). init.lua. Retrieved from https://github.com/ThePrimeagen/init.lua/blob/master/lua/theprimeagen/remap.lua ---
 
