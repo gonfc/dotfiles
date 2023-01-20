@@ -32,7 +32,9 @@
 --         L = {
 --           "<cmd>BufferLineSortByExtension<cr>",
 --           "Sort by language",
---         },
+--         }321,
+--         3213213213131
+--         2132131
 --       },
 --       d = {
 --         name = "Debug",
