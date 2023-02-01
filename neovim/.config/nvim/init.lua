@@ -1,3 +1,4 @@
+    -- ordinary Neovim
 -- lua vim.opt.runtimepath:append(',~/.config/nvim/lua')
 -- :runtime! after/**/*.lua
 vim.opt.rtp:append(vim.fn.stdpath "config" .. "/after/appearance")
@@ -7,6 +8,7 @@ vim.opt.rtp:append(vim.fn.stdpath "config" .. "/after/lsp")
 
 
 --vim.builtin.treesitter.highlight.enable = true
+
 
 require('main')
 -- Past error due to permissions. Fix is: `chmod 755 config.lua`
@@ -69,3 +71,4 @@ print('Greetings from Neovim!')
 --     require ("plugins/" .. pluginName)
 --   end
 -- end
+end

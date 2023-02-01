@@ -1,23 +1,38 @@
 {
-	// "font_size": 14,
-	// "ignored_packages":
-	// [
-	// 	"ActualVim",
-	// 	"Vimprov",
-	// ],
-	    "bold_folder_labels": true,
-	    "caret_extra_width": 1,
-	    "caret_style": "phase",
-	    "close_windows_when_empty": false,
-	    "color_scheme": "Packages/Predawn/predawn-markdown.tmTheme",
-	    "copy_with_empty_selection": false,
-	    "drag_text": false,
-	    "draw_minimap_border": true,
-	    "draw_white_space": "none",
-	    "enable_tab_scrolling": false,
-	    "ensure_newline_at_eof_on_save": true,
-	    "file_exclude_patterns":
+	    "font_face": "Source Code Pro",
+	    "font_options":
 	    [
+	        "no_round"
+	],
+	    "font_size": 16,
+	"ignored_packages":
+		[
+		"ActionScript",
+        "AppleScript",
+        "ASP",
+        "D",
+        "Diff",
+        "Erlang",
+        "Graphviz",
+        "Groovy",
+        "HTML-CSS-JS Prettify",
+        "Lisp",
+        "Lua",
+        "Objective-C",
+        "OCaml",
+        "Rails",
+        "Ruby",
+        "Vimprov",
+	],
+	    "installed_packages":[
+	        "Anaconda",
+	        "BracketHighlighter",
+	        "Material Theme",
+	        "Predawn",
+	        "SideBarEnhancements"
+	],
+	    "file_exclude_patterns":
+		    [
 	        "*.pyc",
 	        "*.pyo",
 	        "*.exe",
@@ -38,41 +53,19 @@
 	        "*.psd",
 	        "*.sublime-workspace"
 	],
-	    "font_face": "Source Code Pro",
-	    "font_options":
-	    [
-	        "no_round"
-	],
-	    "font_size": 13,
+	    "bold_folder_labels": true,
+	    "caret_extra_width": 1,
+	    "caret_style": "phase",
+	    "close_windows_when_empty": false,
+	    "color_scheme": "Packages/Predawn/predawn-markdown.tmTheme",
+	    "copy_with_empty_selection": false,
+	    "drag_text": false,
+	    "draw_minimap_border": true,
+	    "draw_white_space": "none",
+	    "enable_tab_scrolling": false,
+	    "ensure_newline_at_eof_on_save": true,
 	    "highlight_line": true,
 	    "highlight_modified_tabs": true,
-	    "ignored_packages":
-	    [
-	        "ActionScript",
-	        "AppleScript",
-	        "ASP",
-	        "D",
-	        "Diff",
-	        "Erlang",
-	        "Graphviz",
-	        "Groovy",
-	        "HTML-CSS-JS Prettify",
-	        "Lisp",
-	        "Lua",
-	        "Objective-C",
-	        "OCaml",
-	        "Rails",
-	        "Ruby",
-	        "Vimprov",
-		"Vintage",
-	],
-	    "installed_packages":[
-	        "Anaconda",
-	        "BracketHighlighter",
-	        "Material Theme",
-	        "Predawn",
-	        "SideBarEnhancements"
-	],
 	    "line_padding_bottom": 1,
 	    "line_padding_top": 1,
 	    "match_brackets_content": false,
@@ -97,5 +90,6 @@
 	    "trim_trailing_white_space_on_save": true,
 	    "use_simple_full_screen": true,
 	    "word_wrap": false,
+	    "vintage_ctrl_keys": true,
 
 }

@@ -19,6 +19,17 @@
 	directory = /run/media/user/st5_tome/repositories/python-mini-public-projects/netacad_python_essentials_2
 	directory = /run/media/user/st5_tome/repositories/public-notes/dependencies/localhost/private-notes
 	directory = /run/media/user/st5_tome/repositories/public-notes
+	directory = /run/media/user/st5_tome/repositories/notes/Es Regnet/dependencies/localhost/private-notes
+	directory = /run/media/user/st5_tome/repositories/notes/Es Regnet
+	directory = /run/media/user/st5_tome/repositories/general.notes/Es Regnet
+	directory = /run/media/user/st5_tome/repositories/general.notes/Es Regnet/dependencies/localhost/private-notes
+	directory = /run/media/user/st5_tome/repositories/general.notes/Es Regnet.bak
+	directory = /run/media/user/st5_tome/repositories/general.notes/notes
+	directory = /run/media/user/st5_tome/repositories/general.notes/Es Regnet.bak/dependencies/localhost/private-notes
+	directory = /run/media/user/st5_tome/repositories/.obsolete/
+	directory = /run/media/user/st5_tome/repositories/.obsolete/Es-Regnet
+	directory = /run/media/user/st5_tome/repositories/notes
+	directory = /run/media/user/st5_tome/repositories/writing/character-python-project
 
 [work]
 	email = gcorreia@s21sec.com

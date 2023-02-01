@@ -31,6 +31,8 @@ PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 #export PAGER="nvim -c 'set ft=man' | col -b" 
 ##export PAGER=“nvim +’set ft=man’ +’set number relativenumber’ +’set scrolloff=999’ +’norm 32j’ | col -b”
 
+alias meo='/home/user/.screenlayout/external-only.sh'
+alias mio='/home/user/.screenlayout/internal-only.sh'
 alias gs='git status'
 alias gl='git last'
 alias ts='sudo tlp-stat -s'

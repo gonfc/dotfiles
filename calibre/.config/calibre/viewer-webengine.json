@@ -1,50 +1,50 @@
 {
   "geometry-of-main_window_geometry": {
     "frame_geometry": {
-      "height": 863,
-      "width": 1535,
+      "height": 1728,
+      "width": 3072,
       "x": 0,
       "y": 0
     },
-    "full_screened": false,
+    "full_screened": true,
     "geometry": {
-      "height": 863,
-      "width": 1535,
+      "height": 1728,
+      "width": 3072,
       "x": 0,
       "y": 0
     },
     "maximized": false,
     "normal_geometry": {
-      "height": 863,
-      "width": 1535,
-      "x": 0,
+      "height": 1728,
+      "width": 1229,
+      "x": 1843,
       "y": 0
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAAAAAAAAAAABf4AAANeAAAAAAAAAAAAAAX+AAADXgAAAAAAAAAABgAAAAAAAAAAAAAABf4AAANe"
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAC/8AAAa/AAAHMwAAAAAAAAv/AAAGvwAAAAAABAAADAAAAAAAAAAAAAAAC/8AAAa/"
     },
     "screen": {
       "depth": 24,
       "device_pixel_ratio": 1.25,
       "geometry_in_logical_pixels": {
-        "height": 864,
-        "width": 1536,
+        "height": 1728,
+        "width": 3072,
         "x": 0,
         "y": 0
       },
       "index_in_screens_list": 0,
-      "manufacturer": "AU Optronics",
-      "model": "",
-      "name": "eDP-1-1",
-      "serial": "",
+      "manufacturer": "LG Electronics",
+      "model": "LG HDR 4K-",
+      "name": "DP-0",
+      "serial": "577887",
       "size_in_logical_pixels": {
-        "height": 864,
-        "width": 1536
+        "height": 1728,
+        "width": 3072
       },
       "virtual_geometry": {
-        "height": 864,
-        "width": 1536,
+        "height": 1728,
+        "width": 3072,
         "x": 0,
         "y": 0
       }
@@ -56,13 +56,13 @@
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAJ6AAADX/wCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAAAAAEOAAAAI8A////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAQAAAAAAAANfAAAAogD///8AAAABAAABAAAABDj8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACPAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAAAAAEOAAAAQMA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFgD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAOAA////AAADfwAAA18AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAJ6AAAGwPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAAAAAEOAAAAI8A////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAQAAAAAAAAbAAAAAogD///8AAAABAAABAAAABDj8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACPAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAAAAAEOAAAAQMA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFgD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAOAA////AAAJgAAABsAAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
   "saved-search-settings": {
     "bed": {
       "case_sensitive": false,
-      "mode": "normal"
+      "mode": "word"
     },
     "bedded": {
       "case_sensitive": false,
@@ -75,6 +75,10 @@
     "exposed": {
       "case_sensitive": false,
       "mode": "normal"
+    },
+    "her body": {
+      "case_sensitive": false,
+      "mode": "word"
     },
     "jealous": {
       "case_sensitive": false,
@@ -215,6 +219,15 @@
       "singleinstance": false
     },
     "standalone_recently_opened": [
+      {
+        "authors": [
+          "烟雨江南, Misty South, Yanyu Jiangnan"
+        ],
+        "key": "/home/user/Lightnovels/epub/City Of Sin c1-1419.epub",
+        "pathtoebook": "/home/user/Lightnovels/epub/City Of Sin c1-1419.epub",
+        "timestamp": "2023-01-22T18:51:47.260Z",
+        "title": "City Of Sin c1-1419"
+      },
       {
         "authors": [
           "火星引力, Mars Gravity"

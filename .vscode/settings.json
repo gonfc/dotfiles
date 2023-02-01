@@ -1,3 +1,6 @@
 {
-    "typewriterScrollMode.enable": true
+    "typewriterScrollMode.enable": true,
+    "Lua.diagnostics.globals": [
+        "vim"
+    ]
 }

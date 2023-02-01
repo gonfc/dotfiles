@@ -1,8 +1,3 @@
-if vim.g.vscode then
-  vim.g.vscode.keymap.set('n', '<C-w>', ':tabclose<CR>')
-end
-  
-
 -- require('leap').add_default_mappings()
 
 vim.g.mapleader = ' '
@@ -24,8 +19,8 @@ vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "n", "nzzzv")
-vim.keymap.set("n", "<C-j>", "<C-d>", { noremap = true } )
-vim.keymap.set("n", "<C-k>", "<C-u>zz", { noremap = true } )
+vim.keymap.set("n", "<C-j>", "<C-d>", { noremap = true })
+vim.keymap.set("n", "<C-k>", "<C-u>zz", { noremap = true })
 vim.keymap.set("n", "N", "Nzzzv")
 
 vim.keymap.set("n", "<leader>vwm", function()
@@ -38,11 +33,11 @@ end)
 -- greatest remap ever
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
--- next greatest remap ever : asbjornHaland
-vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
+
+vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
-vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
+vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
 
 -- This is going to get me cancelled
 vim.keymap.set("i", "<C-c>", "<Esc>")
@@ -64,3 +59,46 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 --- xxx  ---
 
 --- xxx  ---
+if vim.g.vscode then
+
+    -- Folding
+    vim.keymap.set("n", "za", function() vim.fn.VSCodeNotify("editor.toggleFold") end)
+    vim.keymap.set("n", "zc", function() vim.fn.VSCodeNotify("editor.foldRecursively") end)
+    vim.keymap.set("n", "zC", function() vim.fn.VSCodeNotify("editor.foldAll") end)
+    vim.keymap.set("n", "zO", function() vim.fn.VSCodeNotify("editor.unfoldAll") end)
+    vim.keymap.set("n", "zo", function() vim.fn.VSCodeNotify("editor.unfoldRecursively") end)
+    vim.keymap.set("n", "zp", function() vim.fn.VSCodeNotify("editor.gotoParentFold") end)
+
+    -- All remaps
+    vim.keymap.set("", "zy", function() vim.fn.VSCodeNotify("toggleTypewriter") end)
+
+    -- Normal remaps
+    vim.keymap.set("n", "zh", function() vim.fn.VSCodeNotify("yo1dog.cursor-trim.lTrimCursor") end)
+    vim.keymap.set("n", "zl", function() vim.fn.VSCodeNotify("yo1dog.cursor-trim.rTrimCursor") end)
+    vim.keymap.set("n", "zi", function() vim.fn.VSCodeNotify("yo1dog.cursor-trim.trimCursor") end)
+    vim.keymap.set("n", "[f", function() vim.fn.VSCodeNotify("workbench.view.search.focus") end)
+    vim.keymap.set("n", "]f", function() vim.fn.VSCodeNotify("workbench.action.replaceInFiles") end)
+    vim.keymap.set("n", "gD", function() vim.fn.VSCodeNotify("editor.action.revealDefinitionAside") end)
+    vim.keymap.set("n", "<leader>s", function() vim.fn.VSCodeNotify("editor.action.toggleStickyScroll") end)
+    vim.keymap.set("n", "=<", function() vim.fn.VSCodeNotify("editor.action.trimTrailingWhitespace") end)
+    vim.keymap.set("n", "gl", function() vim.fn.VSCodeNotify("editor.action.openLink") end)
+    vim.keymap.set("n", "<C-k>", function()
+        vim.fn.VSCodeCall("editor.action.insertLineBefore")
+        vim.cmd("norm k")
+    end)
+        vim.keymap.set("n", "<<", function() vim.fn.VSCodeNotify("editor.action.outdentLines") end)
+    vim.keymap.set("n", ">>", function() vim.fn.VSCodeNotify("editor.action.indentLines") end)
+    vim.keymap.set("n", "gcc", function() vim.fn.VSCodeNotify("editor.action.commentLine") end)
+
+    -- Visual remaps
+    vim.keymap.set("v", "gs", function() vim.fn.VSCodeNotifyVisual("codesnap.start", true) end)
+    vim.keymap.set("v", "<", function() vim.fn.VSCodeNotifyVisual("editor.action.outdentLines", false) end)
+    vim.keymap.set("v", ">", function() vim.fn.VSCodeNotifyVisual("editor.action.indentLines", false) end)
+    vim.keymap.set("v", "gc", function() vim.fn.VSCodeNotifyVisual("editor.action.commentLine") end)
+
+    -- Insert remaps
+    vim.keymap.set("i", "<C-k>", function() vim.fn.VSCodeNotify("editor.action.insertLineBefore") end)
+else
+    -- Not vscode
+    vim.keymap.set("n", "zp", "vaBo^<Esc>")
+end

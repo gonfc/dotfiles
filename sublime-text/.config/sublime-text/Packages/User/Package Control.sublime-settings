@@ -5,9 +5,16 @@
 	],
 	"installed_packages":
 	[
-		"ActualVim",
+		"Compare Side-By-Side",
+		"LSP",
+		"LSP-lua",
+		"Markdown Extended",
+		"Markdown Images",
+		"MarkdownFootnotes",
 		"Package Control",
 		"Predawn",
+		"Python 3",
+		"VIM Navigation",
 		"Vimprov",
 	],
 }
